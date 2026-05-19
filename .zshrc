@@ -20,6 +20,7 @@ autoload -U compinit; compinit
 
 # START ALIAS
 alias l='ls -lAhG'
+alias d='cd ~/Developer'
 # END ALIAS
 
 # Add fzf to shell
