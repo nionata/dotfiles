@@ -21,6 +21,7 @@ autoload -U compinit; compinit
 # START ALIAS
 alias l='ls -lAhG'
 alias d='cd ~/Developer'
+source ~/Developer/notes/notes.sh
 # END ALIAS
 
 # START ENV
