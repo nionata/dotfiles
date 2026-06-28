@@ -23,6 +23,11 @@ alias l='ls -lAhG'
 alias d='cd ~/Developer'
 # END ALIAS
 
+# START ENV
+# Consolidate all claude config into a single dir instead of multiple ~/. paths
+export CLAUDE_CONFIG_DIR=~/.config/claude
+# END ENV
+
 # Add fzf to shell
 source <(fzf --zsh)
 
