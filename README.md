@@ -8,13 +8,18 @@
   * [git](https://git-scm.com/)
   * [fzf](https://github.com/junegunn/fzf)
   * [starship](https://starship.rs/)
-* Run the installer scripts
+* Generate an SSH key and add it to your SSH agent
+  * `ssh-keygen -t ed25519 -C "your@email.com"`
+  * `ssh-add ~/.ssh/id_ed25519`
+* Run the installer (idempotent, safe to re-run)
 
 ```bash
 $ ./install.sh
 ```
 
 ### Nix
+
+> TODO: this section is incomplete
 
 * Install [nix](https://github.com/DeterminateSystems/nix-installer)
 
