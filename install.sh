@@ -4,7 +4,7 @@
 # Idempotent: safe to re-run as it skips steps that are already complete.
 
 DOTFILES="$HOME/Developer/dotfiles"
-FILES=(.zshrc .gitconfig .zprofile)
+FILES=(.zshrc .gitconfig .zprofile .zshenv)
 
 NOTES="$HOME/Developer/notes"
 if [ ! -d "$NOTES" ]; then
